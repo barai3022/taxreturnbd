@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826282483308",
+    "project_id": "taxreturnbd-5ede5",
+    "storage_bucket": "taxreturnbd-5ede5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826282483308:android:2b4c48d88a20bd7ab10249",
+        "android_client_info": {
+          "package_name": "com.dvillage.taxreturnbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826282483308-9kh0f0okvmtns5nhck9ab6l4big5hs0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD77Mn4Q9yRoM3F7IOuyBZlN3aaSLw1V7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826282483308-9kh0f0okvmtns5nhck9ab6l4big5hs0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

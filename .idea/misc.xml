@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/drawable/bg_splash_activity.xml" value="0.34814814814814815" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.23941368078175895" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/drawable/ic_email_red_24.xml" value="0.3828125" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/drawable/ic_error_outline.xml" value="0.12916666666666668" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_a24.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_a24_edit.xml" value="0.33" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_b10.xml" value="0.2293159609120521" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_b24.xml" value="0.23157894736842105" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_b24_edit.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_bb10.xml" value="0.2293159609120521" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_c24.xml" value="0.23157894736842105" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_d24.xml" value="0.23157894736842105" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_d24_edit.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_edit_a24.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_form.xml" value="0.2293159609120521" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_ga11.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_ga11_edit.xml" value="0.2" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_main.xml" value="0.24842105263157896" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_register.xml" value="0.2351851851851852" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_splash.xml" value="0.12291666666666666" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_tax_year.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_tin.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/activity_tin_edit.xml" value="0.22" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/dialog_add_edit_tin_info.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/dialog_add_tax_year.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_a24.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_b10.xml" value="0.36666666666666664" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_b24.xml" value="0.3074074074074074" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_bb10.xml" value="0.2293159609120521" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_c24.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_d24.xml" value="0.33" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_ga11.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_reset_password.xml" value="0.31232876712328766" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_24a.xml" value="0.33" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_24d.xml" value="0.2518518518518518" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_a24_cv.xml" value="0.2168141592920354" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_form_cv.xml" value="0.5" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_ga11_edit1.xml" value="0.22" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_ga11_edit2.xml" value="0.23157894736842105" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_ga11_edit3.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_ga11_part1.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_ga11_part2.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_tax_limit.xml" value="0.23157894736842105" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_tax_year_cv.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_tin.xml" value="0.5" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/layout_tin_edit.xml" value="0.25" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/layout/lsyout_24a.xml" value="0.36666666666666664" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/menu/add_icon.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/menu/add_icon_black.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/menu/edit_down_icon.xml" value="0.2293159609120521" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/menu/edit_icon.xml" value="0.1" />
+        <entry key="..\:/android_project/TaxReturnBd/app/src/main/res/menu/tax_nav_menu.xml" value="0.3074074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

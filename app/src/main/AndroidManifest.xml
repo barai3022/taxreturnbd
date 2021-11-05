@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dvillage.taxreturnbd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TaxReturnBd">
+        <activity
+            android:name=".view.Bb10EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.B10EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.B10Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.Bb10Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.Ga11Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.D24Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.C24Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.B24Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.A24Activity"
+            android:exported="true" />
+        <activity
+            android:name=".view.TaxYearActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.FormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.Ga11EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.D24EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.C24EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.B24EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.A24EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.TinEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.TinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_24A"
+        android:orderInCategory="1"
+        android:title="24A"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/edit_24B"
+        android:orderInCategory="1"
+        android:title="24B"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/edit_24D"
+        android:orderInCategory="1"
+        android:title="24D"
+        android:icon="@drawable/ic_baseline_edit_24"
+        app:showAsAction="never" />
+</menu>

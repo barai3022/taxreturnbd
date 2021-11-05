@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.D24Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_toolbar" />
+
+    <TextView
+        android:id="@+id/d2403"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2403"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2403"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2403s"
+        app:layout_constraintTop_toTopOf="@+id/d2403s" />
+
+    <TextView
+        android:id="@+id/tv_d2403"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/d2403"
+        app:layout_constraintTop_toTopOf="@+id/d2403" />
+
+    <TextView
+        android:id="@+id/d2404"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2404"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2404"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2404s"
+        app:layout_constraintTop_toTopOf="@+id/d2404s" />
+
+    <TextView
+        android:id="@+id/tv_d2404"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/d2404"
+        app:layout_constraintTop_toTopOf="@+id/d2404" />
+
+    <TextView
+        android:id="@+id/d2405"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2405"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2405"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2405s"
+        app:layout_constraintTop_toTopOf="@+id/d2405s" />
+
+    <TextView
+        android:id="@+id/tv_d2405"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/d2405"
+        app:layout_constraintTop_toTopOf="@+id/d2405" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2406"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2406"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2406"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2406s"
+        app:layout_constraintTop_toTopOf="@+id/d2406s" />
+
+    <TextView
+        android:id="@+id/tv_d2406"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2406"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2406" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2407"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2407"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2407"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2407s"
+        app:layout_constraintTop_toTopOf="@+id/d2407s" />
+
+    <TextView
+        android:id="@+id/tv_d2407"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2407"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2407" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2408"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2408"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2408"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2408s"
+        app:layout_constraintTop_toTopOf="@+id/d2408s" />
+
+    <TextView
+        android:id="@+id/tv_d2408"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2408"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2408" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2409"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2409"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2409"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2409s"
+        app:layout_constraintTop_toTopOf="@+id/d2409s" />
+
+    <TextView
+        android:id="@+id/tv_d2409"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2409"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2409" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2410"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2410"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2410"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2410s"
+        app:layout_constraintTop_toTopOf="@+id/d2410s" />
+
+    <TextView
+        android:id="@+id/tv_d2410"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2410"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2410" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2411"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2411"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2411"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2411s"
+        app:layout_constraintTop_toTopOf="@+id/d2411s" />
+
+    <TextView
+        android:id="@+id/tv_d2411"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2411"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2411" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2412"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2412l"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2412"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2412s"
+        app:layout_constraintTop_toTopOf="@+id/d2412s" />
+
+    <TextView
+        android:id="@+id/tv_d2412l"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2412"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_lab_d2412"
+        app:layout_constraintStart_toStartOf="@+id/tv_lab_d2412"
+        app:layout_constraintTop_toBottomOf="@+id/tv_d2412" />
+
+    <TextView
+        android:id="@+id/tv_d2412"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2412"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2412" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2413"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2413"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2413"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2413s"
+        app:layout_constraintTop_toTopOf="@+id/d2413s" />
+
+    <TextView
+        android:id="@+id/tv_d2413"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2413"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2413" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2414"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2414"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2414"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2414s"
+        app:layout_constraintTop_toTopOf="@+id/d2414s" />
+
+    <TextView
+        android:id="@+id/tv_d2414"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2414"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2414" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2414a"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2414a"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2414a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="27"
+        app:layout_constraintStart_toEndOf="@+id/d2414s3"
+        app:layout_constraintTop_toTopOf="@+id/d2414s3" />
+
+    <TextView
+        android:id="@+id/tv_d2414a"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2414a"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2414a" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2414b"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2414b"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2414b"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="27"
+        app:layout_constraintStart_toEndOf="@+id/d2414s5"
+        app:layout_constraintTop_toTopOf="@+id/d2414s5" />
+
+    <TextView
+        android:id="@+id/tv_d2414b"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2414b"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2414b" />
+
+
+    <TextView
+        android:id="@+id/tv_lab_d2414c"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2414c"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2414c"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="27"
+        app:layout_constraintStart_toEndOf="@+id/d2414s7"
+        app:layout_constraintTop_toTopOf="@+id/d2414s7" />
+
+    <TextView
+        android:id="@+id/tv_d2414c"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2414c"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2414c" />
+
+    <TextView
+        android:id="@+id/tv_lab_d2415"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/d2415"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_d2415"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="30"
+        app:layout_constraintStart_toEndOf="@+id/d2414s8"
+        app:layout_constraintTop_toTopOf="@+id/d2414s8" />
+
+    <TextView
+        android:id="@+id/tv_d2415"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/tv_lab_d2415"
+        app:layout_constraintTop_toTopOf="@+id/tv_lab_d2415" />
+
+    <TextView
+        android:id="@+id/d2403s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="03"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/d2403"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/d2404s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="04"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/d2404"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d2403" />
+
+    <TextView
+        android:id="@+id/d2405s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="05"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/d2405"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d2404" />
+
+    <TextView
+        android:id="@+id/d2406s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="06"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2406"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d2405" />
+
+    <TextView
+        android:id="@+id/d2407s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="07"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2407"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2406" />
+
+    <TextView
+        android:id="@+id/d2408s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="08"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2408"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2407" />
+
+    <TextView
+        android:id="@+id/d2409s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="09"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2409"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2408" />
+
+    <TextView
+        android:id="@+id/d2410s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2410"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2409" />
+
+    <TextView
+        android:id="@+id/d2411s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="11"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2411"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2410" />
+
+    <TextView
+        android:id="@+id/d2412s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="12"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2412"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2411" />
+
+    <TextView
+        android:id="@+id/d2413s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="13"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2413"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_d2412l" />
+
+    <TextView
+        android:id="@+id/d2414s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="14"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2414"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2413" />
+
+    <TextView
+        android:id="@+id/d2414s2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/d2414s3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2414" />
+
+    <TextView
+        android:id="@+id/d2414s4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/d2414s5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2414a" />
+
+    <TextView
+        android:id="@+id/d2414s6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/d2414s7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2414b" />
+
+    <TextView
+        android:id="@+id/d2414s8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="15"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2415"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lab_d2414c" />
+
+    <TextView
+        android:id="@+id/d2414s7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="14C"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2414c"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/d2414s6"
+        app:layout_constraintTop_toTopOf="@+id/d2414s6" />
+
+    <TextView
+        android:id="@+id/d2414s5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="14B"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2414b"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/d2414s4"
+        app:layout_constraintTop_toTopOf="@+id/d2414s4" />
+
+    <TextView
+        android:id="@+id/d2414s3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="14A"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lab_d2414a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/d2414s2"
+        app:layout_constraintTop_toTopOf="@+id/d2414s2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">BD | Income Tax Return</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acct_have">Already have an Account! Sign In</string>
+    <string name="dont_have_acct">Do not have account? Create Now</string>
+    <string name="tin_text">Click on Your tin to Show/Edit your personal information </string>
+    <string name="tax_year_text">Start Your Return</string>
+    <string name="tax_year_add_text">Tax Year is Primary Loop of Your Database. Enter Tax Year name carefully. Because it can not be edited later. </string>
+
+    <string name="a2403">Basic pay</string>
+    <string name="a2404">Special pay</string>
+    <string name="a2405">Area pay (if not included in taxable income earlier)</string>
+    <string name="a2406">Dearness allowance</string>
+    <string name="a2407">House rent allowance</string>
+    <string name="a2408">Medical allowance</string>
+    <string name="a2409">Conveyance allowance</string>
+    <string name="a2410">Festival Allowance</string>
+    <string name="a2411">Allowance for support staff</string>
+    <string name="a2412">Leave allowance</string>
+    <string name="a2413">Honorarium/ Reward/Fee</string>
+    <string name="a2414">Overtime allowance</string>
+    <string name="a2415">Bonus / Ex-gratia</string>
+    <string name="a2416">Other allowances</string>
+    <string name="a2417">Employer’s contribution to a recognized provident fund</string>
+    <string name="a2418">Interest accrued on a recognized provident fund</string>
+    <string name="a2419">Deemed income for transport facility</string>
+    <string name="a2420">Deemed income for free furnished/ unfurnished accommodation</string>
+    <string name="a2421">Other, if any (give detail) </string>
+    <string name="a2422">Total </string>
+
+    <string name="d2403">Life insurance premium</string>
+    <string name="d2404">Contribution to deposit pension scheme (not exceeding allowable limit)</string>
+    <string name="d2405">Investment in approved savings certificate</string>
+    <string name="d2406">Investment in approved debenture or debenture stock, Stock or Shares</string>
+    <string name="d2407">Contribution to provident fund to which Provident Fund Act, 1925 applies</string>
+    <string name="d2408">Self contribution and employer’s contribution to Recognized Provident Fund</string>
+    <string name="d2409">Contribution to Super Annuation Fund</string>
+    <string name="d2410">Contribution to Benevolent Fund and Group Insurance Premium</string>
+    <string name="d2411">Contribution to Zakat Fund</string>
+    <string name="d2412l">Others, if any ( give details )</string>
+    <string name="d2412">Others, Amount</string>
+    <string name="d2413">Total allowable investment, contribution etc</string>
+    <string name="d2414">Eligible amount for rebate (the lesser of 14A, 14B or 14C</string>
+    <string name="d2414a">Total allowable investment, contribution, etc. (as in 13)</string>
+    <string name="d2414b">25% of the total income [excluding any income for which a tax exemption or a reduced rate is applicable under sub-section (4) of section 44 or any income from any source or sources mentioned in clause (a) of sub-section (2) of section 82C.</string>
+    <string name="d2414c">1.5 crore</string>
+    <string name="d2415">Amount of tax rebate calculated on eligible amount (Serial14) under section 44(2)(b)</string>
+
+    <string name="gab001">The following schedules shall be the integral part of this return and must be annexed to return in the following cases:</string>
+    <string name="gaa002">Schedule 24A if you have income from Salaries</string>
+    <string name="gaa003">Schedule 24B if you have income from house property</string>
+    <string name="gaa004">Schedule 24C if you have income from business or profession</string>
+    <string name="gaa005">Schedule 24D if you claim tax rebate</string>
+
+    <string name="ga01">Assessment Year</string>
+    <string name="ga02">Return submitted under section 82BB? (tick one)</string>
+    <string name="ga03">Name of the Assessee</string>
+    <string name="ga04">Gender (tick one)</string>
+    <string name="ga05">Twelve-digit TIN</string>
+    <string name="ga06">Old TIN</string>
+    <string name="ga07">Circle</string>
+    <string name="ga08">Zone</string>
+    <string name="ga09">Resident Status (tick one)</string>
+    <string name="ga10">Tick on the box(es) below if you are:</string>
+    <string name="ga10a">A gazetted war-wounded freedom fighter</string>
+    <string name="ga10b">A person with disability</string>
+    <string name="ga10c">Aged 65 years or more</string>
+    <string name="ga10d">A parent/legal guardian of a person with disability</string>
+    <string name="ga11">Date of birth (DD-MM-YYYY)</string>
+    <string name="ga12">Income Year</string>
+    <string name="ga13">If employed, employer’s name</string>
+    <string name="ga14">Spouse Name</string>
+    <string name="ga15">Spouse TIN (if any)</string>
+    <string name="ga16">Father’s Name</string>
+    <string name="ga17">Mother’s Name</string>
+    <string name="ga18">Present Address</string>
+    <string name="ga19">Permanent Address</string>
+    <string name="ga20">Contact Telephone</string>
+    <string name="ga21">E-mail</string>
+    <string name="ga22">National Identification Number</string>
+    <string name="ga23">Business Identification Number(s)</string>
+    <string name="ga24">Salaries (annex Schedule 24A)</string>
+    <string name="ga25">Interest on securities </string>
+    <string name="ga26">Income from house property (annex Schedule 24B </string>
+    <string name="ga27">Agricultural income </string>
+    <string name="ga28">Income from business or profession (annex Schedule 24C) </string>
+    <string name="ga29">Capital gains</string>
+    <string name="ga30">Income from other sources</string>
+    <string name="ga31">Share of income from firm or AOP</string>
+    <string name="ga32">Income of minor or spouse under section 43(4)</string>
+    <string name="ga33">Foreign income</string>
+    <string name="ga34">Total income (aggregate of 24 to 33)</string>
+    <string name="ga3500">Tax Computation and Payment</string>
+    <string name="ga3501">Amount BDT</string>
+    <string name="ga35">Gross tax before tax rebate</string>
+    <string name="ga36">Tax rebate (annex Schedule 24D)</string>
+    <string name="ga37">Net tax after tax rebate</string>
+    <string name="ga38">Minimum tax</string>
+    <string name="ga39">Net wealth surcharge</string>
+    <string name="ga40">Interest or any other amount under the Ordinance (if any)</string>
+    <string name="ga41">Total amount payable </string>
+    <string name="ga42">Tax deducted or collected at source (attach proof)</string>
+    <string name="ga43">Advance tax paid (attach proof)</string>
+    <string name="ga44">Adjustment of tax refund [mention assessment year(s) of refund]</string>
+    <string name="ga45">Amount paid with return (attach proof)</string>
+    <string name="ga46">Total amount paid and adjusted (42+43+44+45)</string>
+    <string name="ga47">Deficit or excess (refundable) (41-46)</string>
+    <string name="ga48">Tax exempted income</string>
+    <string name="ga49">Instructions</string>
+    <string name="ga49a">Statement of assets, liabilities and expenses (IT-10B2016) and statement of life style expense (IT10BB2016) must be furnished with the return unless you are exempted from furnishing such statement(s) under section 80.</string>
+    <string name="ga49b">Proof of payments of tax, including advance tax and withholding tax and the proof of investment for tax rebate must be provided along with return.</string>
+    <string name="ga49c">Attach account statements and other documents where applicable</string>
+    <string name="ga50">If you are a parent of a person with disability, has your spouse availed the extended tax exemption threshold? (tick one)</string>
+    <string name="ga51">Are you required to submit a statement of assets, liabilities and expenses (IT-10B2016) under section 80(1)? (tick one)</string>
+    <string name="ga52">Schedules annexed (tick all that are applicable)</string>
+    <string name="ga53">Statements annexed (tick all that are applicable)</string>
+    <string name="ga54">Other statements, documents, etc. attached (list all)</string>
+    <string name="ga5500">Verification and signature</string>
+    <string name="ga55">Verification</string>
+    <string name="ga55a">I solemnly declare that to the best of my knowledge and belief the information given in this return and statements and documents annexed or attached herewith are correct and complete.</string>
+
+    <string name="tax_00">Tax Free Limit</string>
+    <string name="tax_05">Tax 05% Limit</string>
+    <string name="tax_10">Tax 10% Limit</string>
+    <string name="tax_15">Tax 15% Limit</string>
+    <string name="tax_20">Tax 20% Limit</string>
+
+    <string name="amount">0.00</string>
+
+
+    <string name="hello">21 Other, if any (give detail) </string>
+
+
+</resources>

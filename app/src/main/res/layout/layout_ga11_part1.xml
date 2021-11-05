@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintHorizontal_weight="1">
+
+    <TextView
+        android:id="@+id/ga01s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="01"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga01"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ga01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga01"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga02s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/ga01s"
+        app:layout_constraintTop_toTopOf="@+id/ga01s">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ga02s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="02"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga02"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga01"
+        app:layout_constraintTop_toTopOf="@+id/ga01" />
+
+    <TextView
+        android:id="@+id/ga02"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga02"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/ga02s"
+        app:layout_constraintTop_toTopOf="@+id/ga02s" />
+
+    <TextView
+        android:id="@+id/tv_ga1101"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="2021-22"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga01"
+        app:layout_constraintStart_toEndOf="@+id/ga01s"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1102a" />
+
+
+    <CheckBox
+        android:id="@+id/cb_ga1102a"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:hint="Yes"
+        android:padding="0dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1102b"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/tv_ga1101"
+        app:layout_constraintStart_toStartOf="@+id/ga02"
+        app:layout_constraintTop_toBottomOf="@+id/ga02" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1102b"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:hint="No"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cb_ga1102a"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1102a" />
+
+
+    <TextView
+        android:id="@+id/ga03s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="03"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga03"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_ga1102a" />
+
+    <TextView
+        android:id="@+id/ga03"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga03"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga04s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/ga03s"
+        app:layout_constraintTop_toTopOf="@+id/ga03s">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ga04s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="04"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga04"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga03"
+        app:layout_constraintTop_toTopOf="@+id/ga03" />
+
+    <TextView
+        android:id="@+id/ga04"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga04"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/ga04s"
+        app:layout_constraintTop_toTopOf="@+id/ga04s" />
+
+    <TextView
+        android:id="@+id/tv_ga1103"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cb_ga1104a"
+        app:layout_constraintEnd_toEndOf="@+id/ga03"
+        app:layout_constraintStart_toStartOf="@+id/ga03"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1104a" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1104a"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:text="M"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1104b"
+        app:layout_constraintStart_toEndOf="@+id/ga04s"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1104b" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1104b"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:text="F"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cb_ga1104a"
+        app:layout_constraintTop_toBottomOf="@+id/ga04" />
+
+    <TextView
+        android:id="@+id/ga05s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="05"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga05"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_ga1104a" />
+
+    <TextView
+        android:id="@+id/ga05"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga05"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga06s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/ga05s"
+        app:layout_constraintTop_toTopOf="@+id/ga05s" />
+
+    <TextView
+        android:id="@+id/ga06s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="06"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga06"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga05"
+        app:layout_constraintTop_toTopOf="@+id/ga05" />
+
+    <TextView
+        android:id="@+id/ga06"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga06"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/ga06s"
+        app:layout_constraintTop_toTopOf="@+id/ga06s" />
+
+    <TextView
+        android:id="@+id/tv_ga1105"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="tin"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga05"
+        app:layout_constraintStart_toEndOf="@+id/ga05s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1106" />
+
+    <TextView
+        android:id="@+id/tv_ga1106"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="old Tin"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ga06"
+        app:layout_constraintTop_toBottomOf="@+id/ga06" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="07"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1105" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga07"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga08"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="13"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/tv_ga1107"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Circle"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/tv_ga1108"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Zone"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1107" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="09"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1107" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga09"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1109a"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:text="Resident"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1109b"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1109b"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:text="NonResident"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintStart_toEndOf="@+id/cb_ga1109a"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1109a" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_ga1109a" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga10"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="23"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10A"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1110a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1110a" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView24" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1110a"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:text="@string/ga10a"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView25"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1110b"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/ga10b"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1110c"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:text="@string/ga10c"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="10"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+    <CheckBox
+        android:id="@+id/cb_ga1110d"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/ga10d"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/cb_ga1110b" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10B"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1110b"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/cb_ga1110a"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1110b" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10C"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1110c"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1110c" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10D"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/cb_ga1110d"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/cb_ga1110c"
+        app:layout_constraintTop_toTopOf="@+id/cb_ga1110d" />
+
+    <TextView
+        android:id="@+id/ga11s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="11"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_ga1110c" />
+
+    <TextView
+        android:id="@+id/ga11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga11"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga12s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga11s"
+        app:layout_constraintTop_toTopOf="@+id/ga11s" />
+
+    <TextView
+        android:id="@+id/ga12s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga11"
+        app:layout_constraintTop_toTopOf="@+id/ga11" />
+
+    <TextView
+        android:id="@+id/ga12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga12"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga12s"
+        app:layout_constraintTop_toTopOf="@+id/ga12s" />
+
+    <TextView
+        android:id="@+id/tv_ga1111"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="15 11 1983"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga11"
+        app:layout_constraintStart_toEndOf="@+id/ga11s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1112" />
+
+    <TextView
+        android:id="@+id/tv_ga1112"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="2020-2021"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ga12s"
+        app:layout_constraintTop_toBottomOf="@+id/ga12" />
+
+    <TextView
+        android:id="@+id/ga13s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="13"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ga13" />
+
+    <TextView
+        android:id="@+id/ga13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/ga13"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="23"
+        app:layout_constraintStart_toEndOf="@+id/ga13s"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1111" />
+
+    <TextView
+        android:id="@+id/tv_ga1113"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Summit Power Limited"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga13"
+        app:layout_constraintStart_toStartOf="@+id/ga13"
+        app:layout_constraintTop_toBottomOf="@+id/ga13" />
+
+    <TextView
+        android:id="@+id/ga14s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="14"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1113" />
+
+    <TextView
+        android:id="@+id/ga14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga14"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga15s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga14s"
+        app:layout_constraintTop_toTopOf="@+id/ga14s" />
+
+    <TextView
+        android:id="@+id/ga15s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga14"
+        app:layout_constraintTop_toTopOf="@+id/ga14" />
+
+    <TextView
+        android:id="@+id/ga15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga15"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga15s"
+        app:layout_constraintTop_toTopOf="@+id/ga15s" />
+
+    <TextView
+        android:id="@+id/ga16s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="16"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1114" />
+
+    <TextView
+        android:id="@+id/ga16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga16"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga17s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga16s"
+        app:layout_constraintTop_toTopOf="@+id/ga16s" />
+
+    <TextView
+        android:id="@+id/ga17s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="17"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga17"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga16"
+        app:layout_constraintTop_toTopOf="@+id/ga16" />
+
+    <TextView
+        android:id="@+id/ga17"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga17"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga17s"
+        app:layout_constraintTop_toTopOf="@+id/ga17s" />
+
+    <TextView
+        android:id="@+id/ga18s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="18"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga18"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1116" />
+
+    <TextView
+        android:id="@+id/ga18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga18"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga19s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga18s"
+        app:layout_constraintTop_toTopOf="@+id/ga18s" />
+
+    <TextView
+        android:id="@+id/ga19s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="19"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga19"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga18"
+        app:layout_constraintTop_toTopOf="@+id/ga18" />
+
+    <TextView
+        android:id="@+id/ga19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga19"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga19s"
+        app:layout_constraintTop_toTopOf="@+id/ga19s" />
+
+    <TextView
+        android:id="@+id/tv_ga1114"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Spouse"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga14"
+        app:layout_constraintStart_toEndOf="@+id/ga14s"
+        app:layout_constraintTop_toBottomOf="@+id/ga14" />
+
+    <TextView
+        android:id="@+id/tv_ga1115"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Spouse tin"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga15"
+        app:layout_constraintStart_toEndOf="@+id/ga15s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1114" />
+
+    <TextView
+        android:id="@+id/tv_ga1116"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Father"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga16"
+        app:layout_constraintStart_toEndOf="@+id/ga16s"
+        app:layout_constraintTop_toBottomOf="@+id/ga16" />
+
+    <TextView
+        android:id="@+id/tv_ga1117"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mother"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ga17s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1116" />
+
+    <TextView
+        android:id="@+id/tv_ga1118"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Present Address"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga18"
+        app:layout_constraintStart_toEndOf="@+id/ga18s"
+        app:layout_constraintTop_toBottomOf="@+id/ga18" />
+
+    <TextView
+        android:id="@+id/tv_ga1119"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Permanent Address"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga19"
+        app:layout_constraintStart_toEndOf="@+id/ga19s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1118" />
+
+    <TextView
+        android:id="@+id/ga20s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="20"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga20"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1118" />
+
+    <TextView
+        android:id="@+id/ga20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga20"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga21s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga20s"
+        app:layout_constraintTop_toTopOf="@+id/ga20s" />
+
+    <TextView
+        android:id="@+id/ga21s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga21"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga20"
+        app:layout_constraintTop_toTopOf="@+id/ga20" />
+
+    <TextView
+        android:id="@+id/ga21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga21"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga21s"
+        app:layout_constraintTop_toTopOf="@+id/ga21s" />
+
+    <TextView
+        android:id="@+id/ga22s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="22"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga22"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ga1120" />
+
+    <TextView
+        android:id="@+id/ga22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga22"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga23s"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga22s"
+        app:layout_constraintTop_toTopOf="@+id/ga22s" />
+
+    <TextView
+        android:id="@+id/ga23s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/ga23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/ga22"
+        app:layout_constraintTop_toTopOf="@+id/ga22" />
+
+    <TextView
+        android:id="@+id/ga23"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ga23"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="11"
+        app:layout_constraintStart_toEndOf="@+id/ga23s"
+        app:layout_constraintTop_toTopOf="@+id/ga23s" />
+
+    <TextView
+        android:id="@+id/tv_ga1120"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Telephone"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga20"
+        app:layout_constraintStart_toEndOf="@+id/ga20s"
+        app:layout_constraintTop_toBottomOf="@+id/ga20" />
+
+    <TextView
+        android:id="@+id/tv_ga1121"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ga21s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1120" />
+
+    <TextView
+        android:id="@+id/tv_ga1122"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="NID"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/ga22"
+        app:layout_constraintStart_toEndOf="@+id/ga22s"
+        app:layout_constraintTop_toBottomOf="@+id/ga22" />
+
+    <TextView
+        android:id="@+id/tv_ga1123"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BIN"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ga23s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ga1122" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
